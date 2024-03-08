@@ -1,0 +1,19 @@
+{
+    "name": "@Test",
+    "title": "HTML Title here",
+    "description": {
+        "short": "Short description",
+        "long": "Long description here"
+    },
+    "buttons": [
+        {
+            "label": "Project on github",
+            "url": "https://github.com/qweme32/medotlink"
+        },
+        {
+            "label": "Author",
+            "url": "https://github.com/qweme32"
+        }
+    ],
+    "link": "https://your-link.here"
+}

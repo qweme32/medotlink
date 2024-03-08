@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ Title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="static/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="static/main.css">
+</head>
+<body>
+    <div class="layout">
+        <div class="content">
+            <div class="grid main">
+                <div class="grid top border">
+                    <img src="static/logo.png" alt="">
+                    <div class="info">
+                        <div class="name">{{ Name }}</div>
+                        <div class="short">{{ Short }}</div>
+                    </div>
+                </div>
+    
+                <div class="link bg-white">{{ Link }}</div>
+
+                <div class="long border">{{ Long }}</div>
+                    
+                {% for Button in Buttons %}
+                    <a href="{{ Button.Url }}" target="_blank" class="button bg-white">{{ Button.Label }}</a>
+                {% endfor %}
+
+                <div class="views">{{ Views }} views</div>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+</body>
+</html>
