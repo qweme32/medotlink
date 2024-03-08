@@ -12,3 +12,10 @@ Run via docker compose
 docker-compose up -d
 ```
 
+---
+
+PS: Its my first project in golang
+
+with <3 by @qweme32
+
+
