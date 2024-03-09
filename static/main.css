@@ -16,6 +16,12 @@ body {
     width: 400px;
 }
 
+@media (orientation: portrait) {
+    .content {
+        transform: scale(0.75);
+    }
+}
+
 .grid {
     display: grid;
 }
